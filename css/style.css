@@ -1,102 +1,81 @@
 html {
-  height: 100%;
-}
 
-#dvht {
-  height: 155px;
-  clear:both;
-}
-.tws {
-  inherit: none;
-  border-radius: 10px;
-  background-color: #4099FF;
-  border: 1px solid #cccccc;
-  padding: 8px;
-  
-  font-weight: bold;
-  font-size: 0.6em;
-  font-family: Arial;
-  
-  color: #333333;
-  text-decoration: none;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-
   height: 100%;
-  margin: 0;
-  text-align: center;
-  background: radial-gradient(white, gray);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: radial-gradient(#3f3f3f, #2d2d2d);
 }
 
-#dvht {
-  height = 900px;
+#mainDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  text-align: left;
+  background: radial-gradient(#121210, #010101);
+  background-repeat: stretch;
+  background-attachment: stretch;
+  /* border: 30px solid #6f6f6f; */
+  border-radius: 30px;
+  width: 95%;
+  min-width: 600px;
+  box-shadow: 0px 0px 100px RGBA(0, 255, 0, .2);
+  
 }
-h1 {
-  font-family: Verdana;
+
+#quote,
+#author,
+#link {
+  font-family: "Courier New", Courier, monospace;
   font-size: 14px;
-  color: #444;
-  text-shadow: -5px -5px 10px;
+  color: #22DD22;
+  padding: 12px 0px 0px 20px;
+  text-shadow: 2px 2px 6px;
+  line-height: 20px;
+  width: 80%;
 }
 
-p {
-  background-color: #33aa33;
+#quoteButton {
+  position: absolute;
+  bottom: -26px;
+  left: 80px;
+  box-shadow: 0px 0px 4px #000000;
+  border-style: outset;
+  border: 3px solid;  
 }
 
-.quoteButton {
-  background-color: #4CAF50;
-  border: b;
-  width: 260px;
-  color: white;
-  text-shadow: 0px 0px 5px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  border-radius: 24px;
+#tweetButton {
+  position: absolute;
+  bottom: -26px;
+  left: 190px;
+  box-shadow: 0px 0px 4px #000000;
+  border-style: outset;
+  border: 3px solid;
 }
 
-.quotey {
-  font-family: 'Marck Script', cursive;
-  font-size: 22px;
-  width: 250px;
-  text-shadow: 5px 5px 15px;
-}
-
-.grad {
-  background: #c0c0c0;
-  /* For browsers that do not support gradients */
-  background: -webkit-radial-gradient(circle, #c0c0c0, #FFFFFF, #111111);
-  /* Safari */
-  background: -o-radial-gradient(circle, #c0c0c0, #FFFFFF, #11111);
-  /* Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(circle, #c0c0c0, #FFFFFF, #11111);
-  /* Firefox 3.6 to 15 */
-  background: radial-gradient(circle, #c0c0c0, #FFFFFF, #11111);
-  /* Standard syntax */
-}
-
- /* unvisited link */
 a:link {
-    color: white;
+  color: white;
 }
+
 
 /* visited link */
+
 a:visited {
-    color: white;
+  color: white;
 }
+
 
 /* mouse over link */
+
 a:hover {
-    color: white;
+  color: white;
 }
 
+
 /* selected link */
+
 a:active {
-    color: white;
+  color: white;
 }
